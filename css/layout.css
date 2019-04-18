@@ -23,5 +23,54 @@
 }
 
 /* Positioning Classes */
+#sale {
+  background-color: white;
+}
 
+.center {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+    padding: 0 0 20px 0;
+}
 
+#featured {
+  padding: 0;
+  float: left;
+  margin-right: 25px;
+  width: 64%;
+  background-color: white;
+  display: table-cell;
+}
+
+#archive {
+  padding: 0;
+  float: left;
+  width: 33%;
+  background-color: white;
+  display: table-cell;
+  height: 587px;
+}
+
+#deals {
+  margin-top: 2%;
+  padding: 0;
+}
+#deal-1, #deal-2, #deal-3 {
+  padding-left: 2%;
+  float: left;
+  width: 31%;
+  background-color: white;
+}
+
+#deal-1 {
+  margin-left: 0px;
+}
+#deal-1, #deal-2 {
+  margin-right: 20px;
+}
+
+#details [id*="col-"] {
+  float: left;
+  width: 33.33%;
+  background-color: transparent;
+}
